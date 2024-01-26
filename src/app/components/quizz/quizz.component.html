@@ -1,0 +1,32 @@
+<div class="quizz_container">
+    <div class="quizz_logo">
+        <img src="assets/imgs/logo.png" alt="">
+        <!-- <img src="https://www.wizardingworld.com/assets/_next/static/images/sorting-hat-9ab39acf2bd8e6a6ede41263dc84236d.png.webp" alt=""> -->
+        <h3>{{ title }}</h3>
+    </div>
+    <div *ngIf=!finished class="quizz_questions">
+        <h3>{{ questionSelected.question }}</h3>
+    </div>
+    <div *ngIf=!finished class="quizz_options">
+        <button *ngFor="let option of questionSelected.options" (click)="playerChoose(option.alias)" class="btn-option">{{ option.name }}</button>
+    </div>
+    <div *ngIf=finished class="quizz_results">
+        <h1>O seu resultado é: </h1>
+        <p>{{ answerSelected }}</p>
+    </div>
+</div>
+
+
+<!-- 
+    Grifinória: https://images.ctfassets.net/usf1vwtuqyxm/4PcgKT3VHNAUTvf7kXkdrD/2093bb06b6a9e6e74129f13c0c639932/Filled-Gryffindor.svg 
+     - Frase: "Você pode pertencer à Grifinória, Onde vivem os corajosos de coração, Sua ousadia, coragem e cavalheirismo diferenciam os Grifinórios." Harry Potter e a Pedra Filosofal
+
+    Lufa-Lufa: https://images.ctfassets.net/usf1vwtuqyxm/1Et1EKQhLsGiql1ZlbHShw/79b58fe13d156833a808c82b085bedfe/Filled-Hufflepuff.svg
+     - Frase: "Você pode pertencer à Lufa-Lufa, onde eles são justos e leais. Esses pacientes lufa-lufas são verdadeiros e não têm medo do trabalho." Harry Potter e a Pedra Filosofal
+
+    Corvinal: https://images.ctfassets.net/usf1vwtuqyxm/17xo05yCVo3tetTYhsgAvG/8963643ef613a74abc40a72548ddb953/Filled-Ravenclaw.svg
+     - Frase: "Ou ainda na velha e sábia Corvinal Se você tiver uma mente pronta Onde aqueles de inteligência e aprendizado Sempre encontrarão seus semelhantes." Harry Potter e a Pedra Filosofal
+
+    Sonserina: https://images.ctfassets.net/usf1vwtuqyxm/1dUgeiYSumqjTF6m8BWP1u/aa4d596be495975136ce08fe14a63e7b/Filled-Slytherin.svg
+     - Frase: "Ou talvez na Sonserina você faça amigos de verdade. Essas pessoas astutas usam todos os meios para atingir seus objetivos." Harry Potter e a Pedra Filosofal
+-->
