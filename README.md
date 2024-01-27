@@ -9,7 +9,7 @@ The project developed is a Buzzfeed clone using the Harry Potter theme, where us
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
 
 ## How to run? 
-The project is available [here](https://angular-buzzfeed-quizz-mlucianaap.vercel.app/)
+The project is available [here](https://buzzfeed-quizz-mlucianap.vercel.app/)
 
 To access the project source code on your machine and run it. First clone the project:
 
