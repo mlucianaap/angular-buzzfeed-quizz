@@ -112,7 +112,7 @@
 
 @media (max-width: 1024px) {
     .quizz_container {
-        width: 100%;
+        width: 80%;
     }
 
     .quizz_logo h3 {
@@ -159,5 +159,11 @@
 
     .quizz_results_content-paragraphs p {
         text-align: start;
+    }
+}
+
+@media (max-width: 480px) {
+    .quizz_container {
+        width: 100%;
     }
 }
