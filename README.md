@@ -1,27 +1,35 @@
 # Buzzfeed
 
+The project developed is a Buzzfeed clone using the Harry Potter theme, where users can discover their home at Hogwarts by answering a few questions.
+
+![Screenshot](.github/screenshot.png)
+
+## Technologies:
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
 
-## Development server
+## How to run? 
+The project is available [here](https://angular-buzzfeed-quizz-mlucianaap.vercel.app/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+To access the project source code on your machine and run it. First clone the project:
 
-## Code scaffolding
+```
+git clone https://github.com/mlucianaap/angular-buzzfeed-quizz.git
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Navigate to the project directory:
+```
+cd angular-buzzfeed-quizz
+```
 
-## Build
+Install project dependencies:
+```
+npm install
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To run the Angular server in development mode, use the command below:
+```
+ng serve
+```
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
