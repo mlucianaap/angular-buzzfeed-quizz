@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit } from '@angular/core';
 import quizz_questions from "../../../assets/data/quizz_questions.json"
 
 @Component({
@@ -14,12 +14,14 @@ export class QuizzComponent implements OnInit {
   questions: any;
   questionSelected: any;
   answers: string[] = [];
-  answerSelected: string = "";
+  answerSelected: any = {};
 
   questionIndex: number = 0;
   questionMaxIndex: number = 0;
 
   finished: boolean = false;
+
+  constructor(private elemento: ElementRef){}
 
   ngOnInit(): void {
     if (quizz_questions) {
@@ -46,6 +48,7 @@ export class QuizzComponent implements OnInit {
       const finalAnswer: string = await this.checkResult(this.answers);
       this.finished = true;
       this.answerSelected = quizz_questions.results[finalAnswer as keyof typeof quizz_questions.results];
+      this.elemento.nativeElement.ownerDocument.body.style.backgroundColor = this.answerSelected.color;
     }
   }
 
