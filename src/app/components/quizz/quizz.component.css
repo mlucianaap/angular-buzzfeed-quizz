@@ -156,14 +156,32 @@
     .quizz_results_content-paragraphs {
         margin: 1rem 0;
     }
-
-    .quizz_results_content-paragraphs p {
-        text-align: start;
-    }
 }
 
 @media (max-width: 480px) {
     .quizz_container {
         width: 100%;
+    }
+}
+
+@media (max-width: 280px) {
+    .quizz_logo h3, .quizz_results h1 {
+        font-size: 1.2rem;
+    }
+
+    .quizz_questions {
+        padding: 1rem;
+    }
+
+    .quizz_questions h3 {
+        font-size: 1.1rem;
+    }
+
+    .quizz_results_content-paragraphs {
+        margin: 1rem;
+    }
+
+    .quizz_results_content-paragraphs p {
+        font-size: .9rem;
     }
 }

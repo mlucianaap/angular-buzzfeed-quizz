@@ -57,25 +57,29 @@
       "name": "Corvinal!",
       "description": ["A Corvinal, fundada por Rowena Ravenclaw, é uma das quatro casas da Escola de Magia e Bruxaria de Hogwarts. Seus membros, comumente, são caracterizados por sua inteligência, aprendizado e sabedoria. Suas cores são o azul e bronze, o animal emblemático é uma águia.","A casa Corvinal valoriza o aprendizado, a sabedoria, a inteligência e o intelecto de seus membros. Portanto, muitos corvinos tendem ser estudantes proeminentes e talentosos em meios acadêmicos. Não é incomum encontrar alunos da casa que praticam tipos consideravelmente complexos de magia. Seus membros tendem a possuírem uma certa rejeição com expectativas sociais para satisfazer sua própria curiosidade racional. Alguns desses acabam não sendo aceitos, tal como desprezados por suas várias 'esquisitices'."],
       "img": "https://images.ctfassets.net/usf1vwtuqyxm/17xo05yCVo3tetTYhsgAvG/8963643ef613a74abc40a72548ddb953/Filled-Ravenclaw.svg", 
-      "color": "#2559A5"
+      "color": "#2559A5",
+      "colorSecond": "#F1BA8C"
     },
     "G": { 
       "name": "Grifinória!",
       "description": ["A Grifinória, fundada por Godrico Gryffindor, é uma das quatro casas da Escola de Magia e Bruxaria de Hogwarts. Ao estabelecê-la, Godrico instruiu o Chapéu Seletor a classificar estudantes que obtivessem características as quais ele mais valorizava, como a coragem, o cavalheirismo e a determinação. Suas cores são o escarlate e o ouro e seu animal emblemático é um leão.", "A Casa Grifinória enfatiza os traços de coragem, ousadia, bravura e cavalheirismo, portanto, seus membros são geralmente considerados nobres, embora às vezes ao ponto da imprudência."],
       "img": "https://images.ctfassets.net/usf1vwtuqyxm/4PcgKT3VHNAUTvf7kXkdrD/2093bb06b6a9e6e74129f13c0c639932/Filled-Gryffindor.svg", 
-      "color": "#DC544A"
+      "color": "#DC544A", 
+      "colorSecond": "#ffd700"
     },
     "L": { 
       "name": "Lufa-Lufa!",
       "description": ["A Lufa-Lufa, fundada por Helga Hufflepuff, é uma das quatro casas da Escola de Magia e Bruxaria de Hogwarts, sendo conhecida como a mais inclusiva entre as outras três; valorizando o trabalho árduo, a dedicação, a paciência, a lealdade e o jogo limpo ao invés de uma aptidão particular de seus membros. Seu animal emblemático é um texugo e suas cores são o amarelo e o preto.", "Os alunos pertencentes a casa são conhecidos por serem dedicados, amigáveis, leais, honestos e bastante imparciais. Pode ser que, devido a seus valores, os Lufanos não sejam tão competitivos quanto as outras casas, sendo até mesmo mais modestos com suas realizações."],
       "img": "https://images.ctfassets.net/usf1vwtuqyxm/1Et1EKQhLsGiql1ZlbHShw/79b58fe13d156833a808c82b085bedfe/Filled-Hufflepuff.svg",
-      "color": "#FAB441"
+      "color": "#FAB441",
+      "colorSecond": "#212028"
     },
     "S": { 
       "name": "Sonserina!",
       "description": ["A Sonserina, fundada por Salazar Slytherin, é uma das quatro casas da Escola de Magia e Bruxaria de Hogwarts. Ao estabelecer a casa, Salazar instruiu o Chapéu Seletor a escolher somente alunos que obtivessem algumas de suas características particulares as quais ele prezava. Entre elas incluem a astúcia, desenvoltura, liderança e ambição. Vários membros da Sonserina possuem uma certa tendência em formar grupos, muitas vezes adquirindo líderes, o que exemplifica ainda mais as qualidades ambiciosas de Slytherin. Seu animal emblemático é uma serpente e suas cores são verde e prata.", "Os membros desta Casa tendem a ser líderes fortes, ambiciosos, astutos, determinados e inclinados para a autopreservação. Por possuírem sentidos altamente desenvolvidos, Sonserinos pendem a hesitar antes de agir, pensando em todos os resultados possíveis antes de decidir exatamente o que deve ser feito."],
       "img": "https://images.ctfassets.net/usf1vwtuqyxm/1dUgeiYSumqjTF6m8BWP1u/aa4d596be495975136ce08fe14a63e7b/Filled-Slytherin.svg",
-      "color": "#086B5B"
+      "color": "#086B5B",
+      "colorSecond": "#D3E9F5"
     }
   }
 }

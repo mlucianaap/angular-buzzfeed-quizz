@@ -49,6 +49,7 @@ export class QuizzComponent implements OnInit {
       this.finished = true;
       this.answerSelected = quizz_questions.results[finalAnswer as keyof typeof quizz_questions.results];
       this.elemento.nativeElement.ownerDocument.body.style.backgroundColor = this.answerSelected.color;
+      this.elemento.nativeElement.ownerDocument.getElementById("title").style.color = this.answerSelected.colorSecond;
     }
   }
 
