@@ -137,6 +137,10 @@
         font-size: 1.3rem;
     }
 
+    .btn-option {
+        cursor: auto;
+    } 
+
     .quizz_results h1 {
         text-align: center;
         font-size: 1.5rem;
